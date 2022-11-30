@@ -2,7 +2,7 @@
 
 # Kruger Star Using the State Hook - React.js
 
-> Portfolio project
+> Project Using the State Hook - React.js
 
 <img src="./src/assets/playground.png" height="300px">
 
@@ -16,13 +16,13 @@
 
 ## Live Demo
 
-[Live demo link](https://kruger-star-playground-dc.netlify.app/)
-
+[Live demo link, deployed in Vercel](https://use-state-example.vercel.app/)
+[Live demo link, deployed in Netlify](https://kruger-usestateexample-ap.netlify.app/)
 ## Run it locally
 
  ### Setup
 
- - Clone this repo using `git clone https://github.com/DaniCis/TallerRouting_Kruger`
+ - Clone this repo using `git clone https://github.com/Piguave/UseStateExample`
 
  ### Commands
 

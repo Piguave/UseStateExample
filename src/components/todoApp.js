@@ -1,6 +1,6 @@
 import { useState } from "react";
 import Todo from "./todo";
-
+import Container from 'react-bootstrap/Container';
 import "./todoApp.css";
 
 export default function TodoApp() {
@@ -50,7 +50,7 @@ export default function TodoApp() {
   }
 
   return (
-    <div className="todoContainer">
+    <Container className="Container">
       <form onSubmit={handleSubmit} className="todoCreateForm">
         <input
           onChange={handleInputChange}
@@ -71,6 +71,6 @@ export default function TodoApp() {
           />
         ))}
       </div>
-    </div>
+    </Container>
   );
 }

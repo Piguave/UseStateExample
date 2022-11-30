@@ -1,14 +1,39 @@
-.todoContainer {
-  width: 500px;
-  margin: 100px auto;
 
+
+.img-container {
+
+  margin-left: auto;
+  margin-right: auto;
+  width: 150px;
+  
+}
+
+.img-container img {
+  width: auto;
+  height: auto
+}
+
+.Container {
+  width: 75%;
+  margin: 50px 50px;
+  padding: 30px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(251, 251, 251);
+  align-items: center;
+}
+
+.todoContainer {
   display: flex;
   flex-direction: column;
 }
 
 .todoCreateForm {
+  width: 90%;
   display: flex;
   gap: 5px;
+
 }
 
 .todoInput {
@@ -22,33 +47,36 @@
 .buttonCreate {
   border: none;
   border-radius: 3px;
-  background-color: rgb(26, 76, 169);
-  color: white;
+  background-color: rgb(53, 222, 174);
+  color: rgb(0, 0, 0);
   padding: 10px 20px;
 }
 
 .todosContainer {
+  width: 90%;
   display: flex;
   flex-direction: column;
-  gap: 5px;
+  gap: 7px;
   margin-top: 10px;
 }
 
 .todo {
   padding: 10px;
-  background-color: white;
+  background-color: rgb(245, 244, 211);
 }
 
 .todoTitle {
   flex: 1;
   font-size: 20px;
 }
+
 .todoUpdateForm,
 .todoInfo {
   display: flex;
   align-items: center;
   gap: 5px;
 }
+
 .button {
   border: none;
   border-radius: 3px;

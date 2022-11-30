@@ -47,7 +47,7 @@ export default function Todo({ item, onUpdate, onComplete, onDelete }) {
             checked={item.checked}
           />
           <span
-            className="todoTitle"
+            className="todoTitle text-wrap" 
             style={{
               color: item.completed ? "#ccc" : "",
               textDecoration: item.completed ? "line-through" : "",
@@ -59,7 +59,7 @@ export default function Todo({ item, onUpdate, onComplete, onDelete }) {
             Edit
           </button>
           <button className="buttonDelete" onClick={() => onDelete(item.id)}>
-            Update
+            Delete
           </button>
         </div>
       )}
